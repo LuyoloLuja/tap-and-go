@@ -9,7 +9,7 @@ public class TapAndGo {
             System.out.print("You have insufficient funds.");
         } else {
             accountBalance -= amount;
-            System.out.println("You paid: " + accountBalance);
+            System.out.println("You paid: " + amount);
         }
     }
 
@@ -18,6 +18,6 @@ public class TapAndGo {
     }
 
     public void getBalance() {
-        System.out.print("Your balance is: " + accountBalance);
+        System.out.print( "\n" + "Your balance is: " + accountBalance);
     }
 }
